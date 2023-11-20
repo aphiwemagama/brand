@@ -1,0 +1,7 @@
+.is-purple {background-color: #70259B !important;}
+.has-text-purple {color: #70259B !important;}
+.navbar-item-center {flex-grow: 1 !important; justify-content: center !important;}
+.has-bg-img { background: url('/src/assets/confidence.jpeg') center center; background-size: cover; }
+.no-border { border: 0 !important; }
+.is-medium{ height: 90vh !important;}
+.has-background-transparent {background-color: hsla(9, 100%, 64%, 0) !important;}
