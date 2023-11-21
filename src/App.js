@@ -30,31 +30,31 @@ function Navigation() {
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
-            <img src={logo} />
+            <img src={logo} alt="Brand" />
           </a>
 
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a href="#menu" role="button" class="navbar-burger has-text-white" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
 
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarBasicExample" class="navbar-menu is-purple">
           <div class="navbar-start navbar-item-center">
-            <a class="navbar-item has-text-white">
+            <a href="#services" class="navbar-item has-text-white">
               Services
             </a>
 
-            <a class="navbar-item has-text-white">
+            <a href="#industries" class="navbar-item has-text-white">
               Industries
             </a>
 
-            <a class="navbar-item has-text-white">
+            <a href="#cases" class="navbar-item has-text-white">
               Cases
             </a>
 
-            <a class="navbar-item has-text-white">
+            <a href="#contact" class="navbar-item has-text-white">
               Contact
             </a>
           </div>
@@ -96,7 +96,7 @@ function Services() {
   return (
     <div class="block">
       <div class="container has-text-black-bis">
-        <p class="title is-5"><img src={rectangle} class="pb-1"/> What we do</p>
+        <p class="title is-5"><img src={rectangle} alt="Rectangle" class="pb-1"/> What we do</p>
         <p class="title is-2">We offer a complete range of bespoke design and development services to help you turn your ideas into digital masterpieces</p>
         <div class="columns is-multiline">
           <div class="column is-one-quarter">
@@ -142,14 +142,14 @@ function Case() {
   return (
     <div class="block">
       <div class="container has-text-black-bis">
-        <p class="title is-5"><img src={rectangle} class="pb-1"/> Case studies</p>
+        <p class="title is-5"><img src={rectangle} alt="Rectangle" class="pb-1"/> Case studies</p>
         <div class="columns">
           {data.map(x => (
             <div class="column">
               <div class="card">
                 <div class="card-image">
                   <figure class="image">
-                    <img src={x.imageUrl} alt="Placeholder image"/>
+                    <img src={x.imageUrl} alt="Placeholder"/>
                   </figure>
                 </div>
                 <div class="card-content has-background-transparent">
@@ -174,47 +174,47 @@ function Brands() {
   return (
     <div class="block">
       <div class="container has-text-black-bis">
-        <p class="title is-5"><img src={rectangle} class="pb-1"/> You'll be in good company</p>
+        <p class="title is-5"><img src={rectangle} alt="Rectangle" class="pb-1"/> You'll be in good company</p>
         <p class="title is-2">Trusted by leading brands</p>
         <div class="columns is-multiline">
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={visa} width="120" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={visa} alt="Visa" width="120" /></p>
           </div>
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={tymebank} width="120" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={tymebank} alt="Tymebank" width="120" /></p>
           </div>
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={distell} width="100" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={distell} alt="Distell" width="100" /></p>
           </div>
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={spotify} width="120" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={spotify} alt="Spotify" width="120" /></p>
           </div>
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={microsoft} width="120" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={microsoft} alt="Microsoft" width="120" /></p>
           </div>
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={engen} width="120" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={engen} alt="Engen" width="120" /></p>
           </div>
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={nike} width="120" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={nike} alt="Nike" width="120" /></p>
           </div>
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={wesgrow} width="120" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={wesgrow} alt="Wesgrow" width="120" /></p>
           </div>
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={multichoice} width="120" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={multichoice} alt="Multichoice" width="120" /></p>
           </div>
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={pnp} width="120" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={pnp} alt="Pick n Pay" width="120" /></p>
           </div>
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={liquid} width="100" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={liquid} alt="Liquid" width="100" /></p>
           </div>
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={tfg} width="40" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={tfg} alt="TFG" width="40" /></p>
           </div>
           <div class="column is-one-fifth">
-            <p class="has-text-weight-bold has-text-centered"><img src={sanlam} width="120" /></p>
+            <p class="has-text-weight-bold has-text-centered"><img src={sanlam} alt="Sanlam" width="120" /></p>
           </div>
           <div class="column is-one-fifth">
             <p class="has-text-weight-bold has-text-centered"><img src={santam} alt="santam" width="120" /></p>

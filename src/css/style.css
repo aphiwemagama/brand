@@ -5,3 +5,4 @@
 .no-border { border: 0 !important; }
 .is-medium{ height: 90vh !important;}
 .has-background-transparent {background-color: hsla(9, 100%, 64%, 0) !important;}
+.navbar-item:hover {background-color: #A97CC3 !important;}
