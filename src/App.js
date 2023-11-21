@@ -94,7 +94,7 @@ function Hero() {
 
 function Services() {
   return (
-    <div class="block">
+    <div id="services" class="block">
       <div class="container has-text-black-bis">
         <p class="title is-5"><img src={rectangle} alt="Rectangle" class="pb-1"/> What we do</p>
         <p class="title is-2">We offer a complete range of bespoke design and development services to help you turn your ideas into digital masterpieces</p>
@@ -140,7 +140,7 @@ function Case() {
   }, []);
   
   return (
-    <div class="block">
+    <div id="cases" class="block">
       <div class="container has-text-black-bis">
         <p class="title is-5"><img src={rectangle} alt="Rectangle" class="pb-1"/> Case studies</p>
         <div class="columns">
@@ -172,7 +172,7 @@ function Case() {
 
 function Brands() {
   return (
-    <div class="block">
+    <div id="industries" class="block">
       <div class="container has-text-black-bis">
         <p class="title is-5"><img src={rectangle} alt="Rectangle" class="pb-1"/> You'll be in good company</p>
         <p class="title is-2">Trusted by leading brands</p>
@@ -230,7 +230,7 @@ function Brands() {
 
 function Footer() {
   return(
-    <div>
+    <div id="contact">
       <footer class="footer is-purple">
         <div class="container has-text-white">
           <p class="title is-5 has-text-white"><img src={rectangle} alt="Rectangle" class="pb-1"/> Contact us</p>
